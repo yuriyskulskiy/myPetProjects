@@ -1,6 +1,6 @@
 package DAO;
 
-import domain.Product;
+import domain.products.Product;
 
 import javax.sql.DataSource;
 

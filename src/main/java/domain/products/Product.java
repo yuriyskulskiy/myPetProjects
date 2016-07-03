@@ -1,4 +1,4 @@
-package domain;
+package domain.products;
 
 /**
  * Created by Þðà on 19.06.2016.

@@ -1,11 +1,8 @@
 package service;
 
-import DAO.DaoExeption;
 import DAO.ProductDaoImpl;
-import domain.Product;
 import ProjectUtils.transactionManager.TransactionManager;
 import ProjectUtils.transactionManager.TransactionManagerImpl;
-import ProjectUtils.UnitOfWork;
 
 /**
  * Created by Þðà on 16.06.2016.

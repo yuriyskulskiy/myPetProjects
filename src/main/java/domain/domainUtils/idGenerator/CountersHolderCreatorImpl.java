@@ -11,7 +11,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * Created by Þðà on 29.06.2016.
  */
 public class CountersHolderCreatorImpl implements CountersHolderCreatorIf<Connection,DomainEntityMarker > {
-    @Override
+//    @Override
     public HashMap<Class<DomainEntityMarker>,AtomicInteger> createHolder(Connection connection) {
         return new HashMap();
     }
