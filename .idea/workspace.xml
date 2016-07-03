@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bba2f63b-332f-4b17-9427-5b3a629337a0" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDaoTT\DaoFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDaoTT\DaoFactoryImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDaoTT\ProductDao.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDaoTT\ProductDaoImpl.java" afterPath="" />
+      <change type="DELETED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDaoTT\UserDao.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDAO\DaoFactory.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/DaoFactory.java" />
-      <change type="MOVED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDAO\DaoFactoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/DaoFactoryImpl.java" />
-      <change type="MOVED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDAO\ProductDao.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/ProductDao.java" />
-      <change type="MOVED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDAO\ProductDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/ProductDaoImpl.java" />
-      <change type="MOVED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDAO\UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/UserDao.java" />
-      <change type="MOVED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDAO\UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/UserDaoImpl.java" />
+      <change type="MOVED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDaoTT\DaoFactory.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BaseDao/DaoFactory.java" />
+      <change type="MOVED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDaoTT\DaoFactoryImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BaseDao/DaoFactoryImpl.java" />
+      <change type="MOVED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDaoTT\ProductDao.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BaseDao/ProductDao.java" />
+      <change type="MOVED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDaoTT\ProductDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BaseDao/ProductDaoImpl.java" />
+      <change type="MOVED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDaoTT\UserDao.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BaseDao/UserDao.java" />
+      <change type="MOVED" beforePath="D:\projects\productShop\src\main\java\DAO\BaseDaoTT\UserDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/DAO/BaseDao/UserDaoImpl.java" />
     </list>
     <ignored path="projectYuriySkul01.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,18 +44,18 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="DaoFactoryImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/DaoFactoryImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDao/DaoFactoryImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#656#657#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
+                <element signature="e#352#353#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#765#766#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,7 +82,7 @@
         </entry>
       </file>
       <file leaf-file-name="ProductDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/ProductDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDao/ProductDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
@@ -91,7 +96,7 @@
       <file leaf-file-name="Service.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/service/Service.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.04956268">
+            <state vertical-scroll-proportion="0.030411448">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
@@ -99,7 +104,7 @@
         </entry>
       </file>
       <file leaf-file-name="ProductDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/ProductDao.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDao/ProductDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
@@ -111,18 +116,18 @@
         </entry>
       </file>
       <file leaf-file-name="UserDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/UserDaoImpl.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDao/UserDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#465#466#0" expanded="true" />
-                <element signature="e#517#518#0" expanded="true" />
-                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#394#395#0" expanded="true" />
+                <element signature="e#436#437#0" expanded="true" />
+                <element signature="e#463#464#0" expanded="true" />
+                <element signature="e#515#516#0" expanded="true" />
+                <element signature="e#542#543#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -511,7 +516,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="BaseDaoTT" />
+              <option name="myItemId" value="BaseDao" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -989,7 +994,7 @@
       <workItem from="1467207606638" duration="11600000" />
       <workItem from="1467504454727" duration="8032000" />
       <workItem from="1467552420113" duration="7897000" />
-      <workItem from="1467570105469" duration="1303000" />
+      <workItem from="1467570105469" duration="1377000" />
     </task>
     <task id="LOCAL-00001" summary="start with dao pack dev-ng">
       <created>1467511719041</created>
@@ -1003,11 +1008,17 @@
       <option name="project" value="LOCAL" />
       <updated>1467571070690</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="trying to change BaseDAO -&gt;BaseDaoTT">
+      <created>1467571431626</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1467571431626</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138016000" />
+    <option name="totallyTimeSpent" value="138090000" />
   </component>
   <component name="TodoView" selected-index="2">
     <todo-panel id="selected-file">
@@ -1024,7 +1035,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5726795" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36797273" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36797273" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1066,7 +1077,8 @@
     <MESSAGE value="start with dao pack dev-ng" />
     <MESSAGE value="fixed problemms with packege name DAO -&gt;Dao" />
     <MESSAGE value="trying to change BaseDAO -&gt;BaseDao" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to change BaseDAO -&gt;BaseDao" />
+    <MESSAGE value="trying to change BaseDAO -&gt;BaseDaoTT" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to change BaseDAO -&gt;BaseDaoTT" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1382,7 +1394,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6900369">
           <caret line="24" column="46" selection-start-line="24" selection-start-column="46" selection-end-line="24" selection-end-column="46" />
@@ -1393,7 +1405,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/DaoFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDao/DaoFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31365314">
           <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
@@ -1426,23 +1438,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/UserDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDao/UserDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#396#397#0" expanded="true" />
-            <element signature="e#438#439#0" expanded="true" />
-            <element signature="e#465#466#0" expanded="true" />
-            <element signature="e#517#518#0" expanded="true" />
-            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+            <element signature="e#436#437#0" expanded="true" />
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/ProductDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDao/ProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
@@ -1452,23 +1464,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/DaoFactoryImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDao/DaoFactoryImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#656#657#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#765#766#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDaoTT/ProductDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DAO/BaseDao/ProductDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
@@ -1480,7 +1492,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/service/Service.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04956268">
+        <state vertical-scroll-proportion="0.030411448">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
         </state>

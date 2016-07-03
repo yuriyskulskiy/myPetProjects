@@ -1,4 +1,4 @@
-package DAO.BaseDaoTT;
+package DAO.BaseDao;
 
 import domain.products.Product;
 
