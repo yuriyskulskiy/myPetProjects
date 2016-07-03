@@ -1,7 +1,8 @@
-package DAO.BaseDAO;
+package DAO.BaseDao;
 
 import domain.users.User;
 
+import java.sql.SQLException;
 import java.util.List;
 
 /**
@@ -21,5 +22,5 @@ public interface UserDao {
 
     void delete(User user);
 
-    List<User> getAll();
+    List<User> selectAll()throws SQLException;
 }

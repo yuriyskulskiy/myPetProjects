@@ -7,6 +7,8 @@ import ProjectUtils.transactionManager.TransactionManagerImpl;
 /**
  * Created by Þðà on 16.06.2016.
  */
+
+//UDER CONSTRUCTION
 public class Service {
 
     ProductDaoImpl productDAO = new ProductDaoImpl();

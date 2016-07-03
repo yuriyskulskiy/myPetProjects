@@ -19,10 +19,11 @@ import java.util.concurrent.ConcurrentHashMap;
  * Created by Þðà on 16.06.2016.
  */
 public class TransactionManagerImpl extends baseDatasource implements TransactionManager {
-    private static final String JDBC_URL = "jdbc:mysql://127.0.0.1:3306/ ....";
-    private static final String USER = "jdbc:mysql://127.0.0.1:3306/ ....";
-    private static final String PASSWORD = "jdbc:mysql://127.0.0.1:3306/ ....";
+//    private static final String JDBC_URL = "jdbc:mysql://127.0.0.1:3306/ ....";
+//    private static final String USER = "jdbc:mysql://127.0.0.1:3306/ ....";
+//    private static final String PASSWORD = "jdbc:mysql://127.0.0.1:3306/ ....";
 
+    //default setting state
     private boolean useConnectionPoolAndWrapper = true;
 
     public boolean useConnectionPoolandWrapperConstructions() {
@@ -49,7 +50,8 @@ public class TransactionManagerImpl extends baseDatasource implements Transactio
 
 
     private Connection getFreeConnectionFromConnectionPoolManager() {
-
+//todo refactor: init Connection manager ref in Tr manager object via  constractor: TrManager(Connection manager){} or make it as current method argument getFreeConnectionFromConnectionPoolManager(Connection manager)?
+//  logically i think constr with out args should be too cause user can have oportunity dont use connection pool at all
 //            freeConnection = ConnectionManager.getConnectionWrapper(ConnectionPool.getConnectionPool_instance().getConnection());
         Connection freeConnection = ConnectionManager.getConnection();
         return freeConnection;
@@ -91,13 +93,24 @@ public class TransactionManagerImpl extends baseDatasource implements Transactio
 
             connectionKeeper.remove();
             if (useConnectionPoolAndWrapper) {
-
-            } else {
-                try {
-                    myConnection.close();
-                } catch (SQLException e) {
-                    e.printStackTrace();
+// dont do nothing, connection wrapper takes carying ab putting back to pool real connection
+                if (myConnection != null) {
+                    try {
+                        myConnection.close();
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
                 }
+            } else {
+
+                if (myConnection != null) {
+                    try {
+                        myConnection.close();
+                    } catch (SQLException e) {
+                        e.printStackTrace();
+                    }
+                }
+
             }
         }
         return null;
