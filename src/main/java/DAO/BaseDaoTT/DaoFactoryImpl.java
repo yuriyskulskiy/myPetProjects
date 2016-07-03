@@ -1,4 +1,4 @@
-package DAO.BaseDao;
+package DAO.BaseDaoTT;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -23,8 +23,8 @@ public class DaoFactoryImpl implements DaoFactory {
     }
 
     @Override
-    public DAO.BaseDao.UserDao getUserDao(Connection con) {
-        return new DAO.BaseDao.UserDaoImpl(con);
+    public DAO.BaseDaoTT.UserDao getUserDao(Connection con) {
+        return new DAO.BaseDaoTT.UserDaoImpl(con);
     }
 
     @Override
