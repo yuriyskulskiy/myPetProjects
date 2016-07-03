@@ -4,7 +4,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 
 /**
- * Created by ήπΰ on 03.07.2016.
+ * Created by Π®Ρ€Π° on 03.07.2016.
  */
 public interface DaoFactory {
     Connection getConnection() throws SQLException;
