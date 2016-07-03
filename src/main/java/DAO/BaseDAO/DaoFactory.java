@@ -5,7 +5,7 @@ import domain.users.User;
 import java.sql.Connection;
 
 /**
- * Created by ήπΰ on 03.07.2016.
+ * Created by Π®Ρ€Π° on 03.07.2016.
  */
 public interface DaoFactory {
     Connection getConnection();
