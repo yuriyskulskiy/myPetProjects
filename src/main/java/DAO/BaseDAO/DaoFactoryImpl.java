@@ -23,8 +23,8 @@ public class DaoFactoryImpl implements DaoFactory {
     }
 
     @Override
-    public UserDao getUserDao(Connection con) {
-        return new UserDaoImpl(con);
+    public DAO.BaseDao.UserDao getUserDao(Connection con) {
+        return new DAO.BaseDao.UserDaoImpl(con);
     }
 
     @Override
